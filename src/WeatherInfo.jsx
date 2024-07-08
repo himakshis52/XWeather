@@ -46,10 +46,10 @@ const WeatherInfo = () => {
             {weather && (
                 <div id="weather-cards" className="weather-cards">
                     <div className="weather-card">
-                        <p>Temperature: {weather.current.temp_c} °C</p>
-                        <p>Humidity: {weather.current.humidity} %</p>
-                        <p>Condition: {weather.current.condition.text}</p>
-                        <p>Wind Speed: {weather.current.wind_kph} kph</p>
+                        <p><strong>Temperature</strong><br />{weather.current.temp_c} °C</p>
+                        <p><strong>Humidity</strong><br />{weather.current.humidity} %</p>
+                        <p><strong>Condition</strong><br />{weather.current.condition.text}</p>
+                        <p><strong>Wind Speed</strong><br />{weather.current.wind_kph} kph</p>
                     </div>
                 </div>
             )}

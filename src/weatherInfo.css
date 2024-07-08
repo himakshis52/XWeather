@@ -18,7 +18,7 @@ input {
     width: 40%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: white;
     border-radius: 5px;
     margin-right: 20px;
 }
@@ -38,16 +38,19 @@ button:hover {
 
 .weather-cards {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.weather-card {
+/* .weather-card {
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
+} */
 
 #loading-message {
     margin-top: 10px;
@@ -59,6 +62,7 @@ border: 1px transparent #555;
 border-radius: 5px;
 padding: 10px;
 height: 60px;
+width: 140px;
 align-content: center;
 background-color: #f0f0f0;
 margin: 10px;
